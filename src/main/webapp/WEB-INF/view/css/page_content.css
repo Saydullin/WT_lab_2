@@ -1,0 +1,107 @@
+.page_content {
+    padding: 16px;
+    background-color: #d5dddd;
+}
+
+.container {
+  background-color: #d5dddd;
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #abbaba;
+}
+
+input[type=radio]{
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #abbaba;
+  accent-color: #819898;
+}
+
+input[type=radio]:checked {
+    background-color: #819898;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #9dafaf;
+  outline: none;
+}
+
+select {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #abbaba;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #abbaba;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.btn {
+  background-color: #baabab;
+  color: black;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.smallbtn {
+  background-color: #baabab;
+  color: black;
+  padding: 8px 10px;
+  margin: 8px 8px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.research_link {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.return-link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    background-color: #baabab;
+    padding: 8px 10px;
+    margin: 8px 8px;
+}
+
+.question_link {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.signout-link {
+  background-color: #baabab;
+  color: black;
+  padding: 8px 5%;
+  text-decoration: none;
+  float: right;
+}
+
+.invisible {
+    color: #819898;
+}
